@@ -51,7 +51,7 @@ allSprites.colour = color('#0E202D')
       'WWWWW     WWW W',
       'W   WW WW     W',
       'W W    WW WWWWW',
-      'W W WW    W   W',
+      'W   WW    W   W',
       'W W W WWWWW W W',
       'W   W W     W W',
       'W W     WW WW W',
