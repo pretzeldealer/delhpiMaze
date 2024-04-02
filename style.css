@@ -2,6 +2,10 @@ body, html {
 background-color: #446C7D;
 }
 
+#wholeThing {
+  margin: auto;
+  width: 375px;
+}
 
 #htmlArea {
   width: 375px;
@@ -30,6 +34,7 @@ background-color: #446C7D;
 }
 
 #container {
+  margin:auto;
   animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards ;
