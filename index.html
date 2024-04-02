@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Delphi's Maze</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://use.typekit.net/rzp0lip.css">
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@1/lib/addons/p5.sound.min.js"></script>
+<script src="https://p5play.org/v3/planck.min.js"></script>
+<script src="https://p5play.org/v3/p5play.js"></script>
+</head>
+
+<body style="margin: 0px">
+  <div id="endMessage">
+    <p>Amidst the labyrinth's twists, your deft hand has guided the woolen wanderer to the light. Congratulations on shepherding success through winding paths!</p>
+    <p id="bonusMessage"></p>
+  </div>
+    <div id="container">
+      <!--sketch will be inserted here, as done in setup() in sketch.js-->
+    </div>
+    <div id='htmlArea'>
+      <div id="buttons">
+        <span style="width: 100%;">
+          <button class="btn" onclick="moveUp()">
+            <p>&#8679</p>
+          </button>
+        </span>
+        <button class="btn" onclick="moveLeft()">
+          <p>&#8678</p>
+        </button>
+        <button class="btn" onclick="moveRight()">
+          <p>&#8680</p>
+        </button>
+        <span style="width: 100%;">
+          <button class="btn" onclick="moveDown()">
+            <p>&#8681</p>
+          </button>
+        </span>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
