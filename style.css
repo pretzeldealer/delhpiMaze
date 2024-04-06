@@ -1,5 +1,6 @@
 body, html {
-background-color: #446C7D;
+/* background-color: #446C7D; */
+  background-color: red;
 }
 
 #wholeThing {
@@ -31,6 +32,7 @@ background-color: #446C7D;
   animation-iteration-count: 1;
   /** Code from https://www.geeksforgeeks.org/how-to-maintain-the-final-state-at-end-of-a-css3-animation/ **/
   animation-fill-mode: forwards ;
+  margin-top: 0.5rem;
 }
 
 #container {
