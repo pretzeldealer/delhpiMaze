@@ -1,5 +1,7 @@
 body, html {
-  background-color: #446C7D;
+/*   background-color: #446C7D; */
+  background-image: url(media/widebg);
+  background-size:cover;
 
 }
 
