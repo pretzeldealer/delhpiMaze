@@ -95,8 +95,14 @@ function draw() {
     document.getElementById("container").style="animation-name: fade;"
     document.getElementById("buttons").style="animation-name: fade;"
 
-    if (seconds <= 25) {
-      document.getElementById("bonusMessage").innerHTML="<br>For your speed and navigation a gift you shall recieve. Give this secret code to Pythia for good blessings in your prophecy:<br><br><span style='font-size:2rem; color: yellow; '>YELLOW<span>"
+    if (window.screen.width < 600){
+      if (seconds <= 25) {
+        document.getElementById("bonusMessage").innerHTML="<br>For your speed and navigation a gift you shall recieve. Give this secret code to Pythia for good blessings in your prophecy:<br><br><span style='font-size:2rem; color: yellow; '>YELLOW<span>"
+      }
+    } else {
+      if (seconds <= 40) {
+        document.getElementById("bonusMessage").innerHTML="<br>For your speed and navigation a gift you shall recieve. Give this secret code to Pythia for good blessings in your prophecy:<br><br><span style='font-size:2rem; color: yellow; '>YELLOW<span>"
+      }
     }
 
     showMessage()
